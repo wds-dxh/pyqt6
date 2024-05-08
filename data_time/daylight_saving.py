@@ -22,3 +22,12 @@ if now.isDaylightTime():
     print('The current date falls into DST time')
 else:
     print('The current date does not fall into DST time')
+
+"""
+总结--DST是夏令时的缩写，是一种节约能源的方式，通过在夏季调整时钟来节约能源。
+这个例子展示了如何使用PyQt6获取夏令时信息。
+1.我们使用QDateTime.currentDateTime()方法获取当前日期和时间。
+2.我们使用QDateTime.isDaylightTime()方法检查当前日期是否在夏令时。
+3.timeZoneAbbreviation()方法返回当前时区的缩写。
+
+"""
