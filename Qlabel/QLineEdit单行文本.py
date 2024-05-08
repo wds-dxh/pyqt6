@@ -18,8 +18,9 @@ class Ui_Form(object):
         self.lineEdit.setText("")
         self.lineEdit.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
         self.lineEdit.setObjectName("lineEdit")
+
         self.lineEdit_2 = QtWidgets.QLineEdit(parent=Form)
-        self.lineEdit_2.setGeometry(QtCore.QRect(260, 220, 131, 51))
+        self.lineEdit_2.setGeometry(QtCore.QRect(260, 220, 131, 51))#setGeometry设置位置和大小
         self.lineEdit_2.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
         self.lineEdit_2.setObjectName("lineEdit_2")
 
